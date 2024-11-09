@@ -11,6 +11,6 @@ public class GreetingResource {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Hello RESTEasy";
+        return "<center><h1>Apenas um teste usando o Quarkus + OpenShift !!</h1></center>";
     }
 }
